@@ -216,6 +216,8 @@ body {
     width: 270px;
     color: var(--color-pale-blue);
     border: none;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.4rem;
 }
 
 .container .summary button:hover{
