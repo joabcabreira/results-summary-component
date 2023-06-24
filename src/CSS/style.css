@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+@media (max-width: 375px){
+    .container{
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    .container .painel{
+        margin-top: -25px;
+    }
+
+}
+
+body{
+    display: var(--max-width-display);
+}
+
+.container{
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PAINEL */
+.container .painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    height: 470px;
+    width: 375px;
+    box-shadow: 0px 15px 25px hsl(221, 100%, 96%);
+}
+
+.container .painel h2{
+    color: var(--color-white);
+}
+
+.container .painel .titulo h1{
+    color: var(--color-light-lavender);
+    padding: 30px;
+}
+
+/* CIRCLE */
+.container .painel .circle{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.container .painel .circle h2{
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    padding: 35px 30px 0;
+    
+}
+
+.container .painel .circle p{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: var(--color-light-lavender);
+}
+
+/* PAINEL INFO */
+.container .painel .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .painel .info h2{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.container .painel .info p{
+    padding: 0px 50px;
+    color: var(--color-light-lavender);
+    font-size: 18px;
+    text-align: center;
+}
+
+/* SUMMARY */
+.container .summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: var(--color-white);
+    /* background-color: #000; */
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 470px;
+    width: 375px;
+    box-shadow: 15px 15px 25px hsl(221, 100%, 96%);
+}
+
+.container .summary h2{
+    color: var(--color-dark-gray-blue);
+    position: relative;
+    right: 73px;
+}
+
+/* REACTION */
+.container .summary .reaction{
+    background-color: hsl(0, 100%, 97.5%);
+    border-radius: 6px;
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -5px;
+}
+
+.container .summary .reaction h3{
+    color: var(--color-light-red);
+    padding-right: 60px;
+}
+
+.container .summary .reaction p{
+    color: #000;
+}
+
+/* MEMORY */
+.container .summary .memory{
+    background: hsl(39, 100%, 97.5%);
+    border-radius: 6px;
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -5px;
+}
+
+.container .summary .memory h3{
+    color: var(--color-orangey-yellow);
+    padding-right: 60px;
+}
+
+.container .summary .memory p{
+    color: #000;
+}
+
+/* VERBAL */
+.container .summary .verbal{
+    background: hsl(166, 100%, 97.5%);
+    border-radius: 6px;
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -5px;
+}
+
+.container .summary .verbal h3{
+    color: var(--color-green-teal);
+    padding-right: 75px;
+}
+
+.container .summary .verbal p{
+    color: #000;
+}
+
+/* VISUAL */
+.container .summary .visual{
+    background: hsl(234, 85%, 97.5%);
+    border-radius: 6px;
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -5px;
+}
+
+.container .summary .visual h3{
+    color: var(--color-cobalt-blue);
+    padding-right: 75px;
+}
+
+.container .summary .visual p{
+    color: #000;
+}
+
+/* BUTTON */
+.container .summary button{
+    background: var(--color-dark-gray-blue);
+    border-radius: 100px;
+    height: 50px;
+    width: 270px;
+    color: var(--color-pale-blue);
+    border: none;
+}
+
+.container .summary button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    transition: 0.3s;
+}
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.footer .attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.footer .attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+

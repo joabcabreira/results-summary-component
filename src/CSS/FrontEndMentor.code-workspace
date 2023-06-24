@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../results-summary-component-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FrontEndMentor"
+	}
+}
